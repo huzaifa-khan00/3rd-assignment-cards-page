@@ -15,7 +15,7 @@ nav {
     width: 100vw;
     background-color: orange;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -74,13 +74,14 @@ nav {
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .card1, .card2, .card3 {
     width: 300px;
     height: 500px;
+    border-radius: 5%;
 }
 
 .card1 {
@@ -93,5 +94,9 @@ nav {
     background-color: yellow;
 }
 
-
+.card1:hover {
+    background-color: red;
+    width: 500px;
+    height: 700px;
+}
 
