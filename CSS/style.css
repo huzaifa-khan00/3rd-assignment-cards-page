@@ -13,74 +13,69 @@ html, body {
 .container {
     width: 100vw;
     height: 100vh;
-}
-
-nav {   
-    height: 70px;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: violet;
-}
-
-.logo {
-    width: 15vw;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img {
-    width: 15vw;
-    height: 100%;
-}
-
-.links ul, .links > ul > li, .links a {
-    list-style-type: none;
-    text-decoration: none;
-    color: black;
-}
-
-.links {
-    width: 85vw;
-    height: 100%;
-}
-
-.links ul {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    gap: 220px;
-}
-
-.links ul img {
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-}
-
-.links ul > li {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 80px;
-}
-
-.menu {
-    width: 5%;
-    height: 100%;
-    display: none;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.container {
     background-image: url('/Assets/Images/landscape-background.jpeg');
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-}   
+    background-size: cover;    
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    height: 6vw;
+    width: 100vw;
+}
+
+.logo {
+    background-color: blueviolet;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+nav img {
+    width: 100%;
+}
+
+.links {
+    background: greenyellow;
+    width: 100%;
+}
+
+.links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: orange;
+}
+
+.links li {
+    list-style-type: none;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link img {
+    height: 100%;
+}
+
+.links a {
+   height: 100%; 
+}
+
+.menu {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width:4%;
+}
