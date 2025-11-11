@@ -16,12 +16,12 @@ html, body {
 }
 
 nav {   
-    height: 5vw;
+    height: 70px;
     width: 100vw;
-    background-color: orange;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    background-color: violet;
 }
 
 .logo {
@@ -30,7 +30,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
 }
 
 .logo img {
@@ -47,18 +46,14 @@ nav {
 .links {
     width: 85vw;
     height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: red;
 }
 
 .links ul {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
-    background-color: green;
+    justify-content: end;
+    gap: 220px;
 }
 
 .links ul img {
@@ -70,8 +65,6 @@ nav {
 .links ul > li {
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: blueviolet;
     height: 100%;
     width: 80px;
 }
@@ -82,39 +75,12 @@ nav {
     display: none;
     justify-content: center;
     align-items: center;
-    background-color: blue;
     
 }
 
-.main {
-    background-color: orange;
-    width: 100vw;
-    height: 95vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+.container {
+    background-image: url('/Assets/Images/landscape-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }   
-
-.card1, .card2, .card3 {
-    width: 300px;
-    height: 500px;
-    border-radius: 5%;
-    padding: 20px;
-    font-size: 1.2vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-}
-
-.card1 {
-    background-color: red;
-}
-
-.card2 {
-    background-color: green;
-}
-.card3 {
-    background-color: yellow;
-}
