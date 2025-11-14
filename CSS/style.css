@@ -341,8 +341,13 @@ nav img {
   .card-content h1 {
     margin-bottom: 8px;
   }
-}
 
+  .card1, .card2, .card3 {
+    width: 39.294vw;
+    height: 70.824vw;
+  }
+}
+  
 @media (max-width: 375px) {
   .menu {
     height: 28px;
